@@ -1,0 +1,833 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AuthProvider
+ | Nefta SDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AuthProvider
+ | Nefta SDK ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Unity API">
+            Unity API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider">
+
+
+
+  <h1 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider" class="text-break">
+    Class AuthProvider
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Nefta.html">Nefta</a>.<a class="xref" href="Nefta.ToolboxSdk.html">ToolboxSdk</a>.<a class="xref" href="Nefta.ToolboxSdk.Authorization.html">Authorization</a>.<a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.html">AuthProviders</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Nefta.ToolboxSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class AuthProvider</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AuthProvider</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AppleProvider.html">AppleProvider</a></div>
+      <div><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.DiscordProvider.html">DiscordProvider</a></div>
+      <div><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.html">FacebookProvider</a></div>
+      <div><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.GoogleProvider.html">GoogleProvider</a></div>
+      <div><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.TwitchProvider.html">TwitchProvider</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider__ctor_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.#ctor*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider__ctor_System_String_System_String_System_Action_System_String__System_Action_System_String__" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.#ctor(System.String,System.String,System.Action{System.String},System.Action{System.String})">
+  AuthProvider(string, string, Action&lt;string&gt;, Action&lt;string&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AuthProvider(string id, string secret, Action&lt;string&gt; onAuthComplete, Action&lt;string&gt; onAuthError)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>secret</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>onAuthComplete</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>onAuthError</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_ClientId" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.ClientId">
+  ClientId
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly string ClientId</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_ClientSecret" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.ClientSecret">
+  ClientSecret
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly string ClientSecret</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_ExchangeCodeForTokenRequest" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.ExchangeCodeForTokenRequest">
+  ExchangeCodeForTokenRequest
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UnityWebRequest ExchangeCodeForTokenRequest</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityWebRequest</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_HttpListener" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.HttpListener">
+  HttpListener
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected HttpListener HttpListener</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.httplistener">HttpListener</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnAuthenticationComplete" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.OnAuthenticationComplete">
+  OnAuthenticationComplete
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly Action&lt;string&gt; OnAuthenticationComplete</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnAuthenticationError" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.OnAuthenticationError">
+  OnAuthenticationError
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly Action&lt;string&gt; OnAuthenticationError</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_RedirectLink" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.RedirectLink">
+  RedirectLink
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const string RedirectLink = &quot;https://api.nefta.io/sdk/auth/redirect&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_Token" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.Token">
+  Token
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AuthToken Token</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthToken.html">AuthToken</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider__synchronizationContext" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider._synchronizationContext">
+  _synchronizationContext
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly SynchronizationContext _synchronizationContext</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.synchronizationcontext">SynchronizationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_AuthUrl_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.AuthUrl*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_AuthUrl" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.AuthUrl">
+  AuthUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string AuthUrl { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_CodeExchangeMethod_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.CodeExchangeMethod*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_CodeExchangeMethod" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.CodeExchangeMethod">
+  CodeExchangeMethod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string CodeExchangeMethod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_CodeExchangeUrl_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.CodeExchangeUrl*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_CodeExchangeUrl" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.CodeExchangeUrl">
+  CodeExchangeUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string CodeExchangeUrl { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_CreateExchangeForTokenRequest_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.CreateExchangeForTokenRequest*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_CreateExchangeForTokenRequest_System_String_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.CreateExchangeForTokenRequest(System.String)">
+  CreateExchangeForTokenRequest(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual UnityWebRequest CreateExchangeForTokenRequest(string code)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityWebRequest</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_Finalize_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.Finalize*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_Finalize" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.Finalize">
+  ~AuthProvider()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ~AuthProvider()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_GetAuthenticationUrl_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.GetAuthenticationUrl*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_GetAuthenticationUrl" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.GetAuthenticationUrl">
+  GetAuthenticationUrl()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual StringBuilder GetAuthenticationUrl()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_GetCodeExchangeUrl_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.GetCodeExchangeUrl*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_GetCodeExchangeUrl_System_String_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.GetCodeExchangeUrl(System.String)">
+  GetCodeExchangeUrl(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual StringBuilder GetCodeExchangeUrl(string code)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_GetEmail_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.GetEmail*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_GetEmail" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.GetEmail">
+  GetEmail()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void GetEmail()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_InitiateAuthentication_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.InitiateAuthentication*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_InitiateAuthentication" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.InitiateAuthentication">
+  InitiateAuthentication()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitiateAuthentication()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnDeepLinkActivated_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.OnDeepLinkActivated*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnDeepLinkActivated_System_String_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.OnDeepLinkActivated(System.String)">
+  OnDeepLinkActivated(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDeepLinkActivated(string deepLink)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deepLink</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnEmail_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.OnEmail*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnEmail_System_String_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.OnEmail(System.String)">
+  OnEmail(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnEmail(string email)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © NEFTA. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

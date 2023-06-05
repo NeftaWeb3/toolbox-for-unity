@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FacebookProvider
+ | Nefta SDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FacebookProvider
+ | Nefta SDK ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Unity API">
+            Unity API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider">
+
+
+
+  <h1 id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider" class="text-break">
+    Class FacebookProvider
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Nefta.html">Nefta</a>.<a class="xref" href="Nefta.ToolboxSdk.html">ToolboxSdk</a>.<a class="xref" href="Nefta.ToolboxSdk.Authorization.html">Authorization</a>.<a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.html">AuthProviders</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Nefta.ToolboxSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FacebookProvider : AuthProvider</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html">AuthProvider</a></div>
+      <div><span class="xref">FacebookProvider</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_RedirectLink">AuthProvider.RedirectLink</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_ClientId">AuthProvider.ClientId</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_ClientSecret">AuthProvider.ClientSecret</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider__synchronizationContext">AuthProvider._synchronizationContext</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_HttpListener">AuthProvider.HttpListener</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_ExchangeCodeForTokenRequest">AuthProvider.ExchangeCodeForTokenRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_Token">AuthProvider.Token</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnAuthenticationComplete">AuthProvider.OnAuthenticationComplete</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnAuthenticationError">AuthProvider.OnAuthenticationError</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_InitiateAuthentication">AuthProvider.InitiateAuthentication()</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnDeepLinkActivated_System_String_">AuthProvider.OnDeepLinkActivated(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_CreateExchangeForTokenRequest_System_String_">AuthProvider.CreateExchangeForTokenRequest(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Nefta.ToolboxSdk.Authorization.AuthProviders.AuthProvider.html#Nefta_ToolboxSdk_Authorization_AuthProviders_AuthProvider_OnEmail_System_String_">AuthProvider.OnEmail(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider__ctor_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.#ctor*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider__ctor_System_String_System_String_System_Action_System_String__System_Action_System_String__" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.#ctor(System.String,System.String,System.Action{System.String},System.Action{System.String})">
+  FacebookProvider(string, string, Action&lt;string&gt;, Action&lt;string&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FacebookProvider(string id, string secret, Action&lt;string&gt; onAuthComplete, Action&lt;string&gt; onAuthFail)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>secret</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>onAuthComplete</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>onAuthFail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_AuthUrl_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.AuthUrl*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_AuthUrl" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.AuthUrl">
+  AuthUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string AuthUrl { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_CodeExchangeMethod_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.CodeExchangeMethod*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_CodeExchangeMethod" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.CodeExchangeMethod">
+  CodeExchangeMethod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string CodeExchangeMethod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_CodeExchangeUrl_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.CodeExchangeUrl*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_CodeExchangeUrl" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.CodeExchangeUrl">
+  CodeExchangeUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string CodeExchangeUrl { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_GetAuthenticationUrl_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.GetAuthenticationUrl*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_GetAuthenticationUrl" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.GetAuthenticationUrl">
+  GetAuthenticationUrl()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override StringBuilder GetAuthenticationUrl()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_GetCodeExchangeUrl_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.GetCodeExchangeUrl*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_GetCodeExchangeUrl_System_String_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.GetCodeExchangeUrl(System.String)">
+  GetCodeExchangeUrl(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override StringBuilder GetCodeExchangeUrl(string code)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_GetEmail_" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.GetEmail*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthProviders_FacebookProvider_GetEmail" data-uid="Nefta.ToolboxSdk.Authorization.AuthProviders.FacebookProvider.GetEmail">
+  GetEmail()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void GetEmail()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © NEFTA. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

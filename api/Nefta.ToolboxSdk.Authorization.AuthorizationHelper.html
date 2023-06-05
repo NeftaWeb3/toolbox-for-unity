@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AuthorizationHelper
+ | Nefta SDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AuthorizationHelper
+ | Nefta SDK ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Unity API">
+            Unity API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper">
+
+
+
+  <h1 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper" class="text-break">
+    Class AuthorizationHelper
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Nefta.html">Nefta</a>.<a class="xref" href="Nefta.ToolboxSdk.html">ToolboxSdk</a>.<a class="xref" href="Nefta.ToolboxSdk.Authorization.html">Authorization</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Nefta.ToolboxSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AuthorizationHelper</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AuthorizationHelper</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper__ctor_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.#ctor*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper__ctor_Nefta_ToolboxSdk_Toolbox_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.#ctor(Nefta.ToolboxSdk.Toolbox)">
+  AuthorizationHelper(Toolbox)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AuthorizationHelper(Toolbox toolbox)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toolbox</code> <a class="xref" href="Nefta.ToolboxSdk.Toolbox.html">Toolbox</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_GuestFullSignup_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.GuestFullSignup*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_GuestFullSignup_System_String_System_Action_System_Boolean__" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.GuestFullSignup(System.String,System.Action{System.Boolean})">
+  GuestFullSignup(string, Action&lt;bool&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts guest into full user. This will send an email with confirmation code to the gamer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GuestFullSignup(string email, Action&lt;bool&gt; onSignUp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Gamer email</p>
+</dd>
+    <dt><code>onSignUp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_LoginWithConfirmationCode_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.LoginWithConfirmationCode*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_LoginWithConfirmationCode_System_String_System_String_System_Action_Nefta_Core_NeftaUser__" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.LoginWithConfirmationCode(System.String,System.String,System.Action{Nefta.Core.NeftaUser})">
+  LoginWithConfirmationCode(string, string, Action&lt;NeftaUser&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Login by given email and confirmation code (from email).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoginWithConfirmationCode(string email, string code, Action&lt;NeftaUser&gt; onLoginWithConfirmationCode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>onLoginWithConfirmationCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Nefta.Core.NeftaUser.html">NeftaUser</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_RequestLoginCode_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.RequestLoginCode*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_RequestLoginCode_System_String_System_Action_System_Boolean__" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.RequestLoginCode(System.String,System.Action{System.Boolean})">
+  RequestLoginCode(string, Action&lt;bool&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Request a login code by given email.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RequestLoginCode(string email, Action&lt;bool&gt; onRequestLoginCode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>onRequestLoginCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_SignUpGamer_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.SignUpGamer*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_SignUpGamer_System_String_System_String_System_String_System_Action_System_Boolean__" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.SignUpGamer(System.String,System.String,System.String,System.Action{System.Boolean})">
+  SignUpGamer(string, string, string, Action&lt;bool&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a full user with the given email and name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SignUpGamer(string email, string username, string wallet, Action&lt;bool&gt; onSignUpGamer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>wallet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>onSignUpGamer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_SignUpGuestUser_" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.SignUpGuestUser*"></a>
+
+  <h3 id="Nefta_ToolboxSdk_Authorization_AuthorizationHelper_SignUpGuestUser_System_String_System_Action_Nefta_Core_NeftaUser__" data-uid="Nefta.ToolboxSdk.Authorization.AuthorizationHelper.SignUpGuestUser(System.String,System.Action{Nefta.Core.NeftaUser})">
+  SignUpGuestUser(string, Action&lt;NeftaUser&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new user with the given name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SignUpGuestUser(string userName, Action&lt;NeftaUser&gt; onSignUp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>onSignUp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Nefta.Core.NeftaUser.html">NeftaUser</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © NEFTA. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

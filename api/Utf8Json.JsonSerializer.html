@@ -1,0 +1,1329 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class JsonSerializer
+ | Nefta SDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class JsonSerializer
+ | Nefta SDK ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Unity API">
+            Unity API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Utf8Json.JsonSerializer">
+
+
+
+  <h1 id="Utf8Json_JsonSerializer" data-uid="Utf8Json.JsonSerializer" class="text-break">
+    Class JsonSerializer
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Utf8Json.html">Utf8Json</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Nefta.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>High-Level API of Utf8Json.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class JsonSerializer</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">JsonSerializer</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Utf8Json_JsonSerializer_DefaultResolver_" data-uid="Utf8Json.JsonSerializer.DefaultResolver*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_DefaultResolver" data-uid="Utf8Json.JsonSerializer.DefaultResolver">
+  DefaultResolver
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>FormatterResolver that used resolver less overloads. If does not set it, used StandardResolver.Default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IJsonFormatterResolver DefaultResolver { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_IsInitialized_" data-uid="Utf8Json.JsonSerializer.IsInitialized*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_IsInitialized" data-uid="Utf8Json.JsonSerializer.IsInitialized">
+  IsInitialized
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is resolver decided?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInitialized { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_System_Byte___" data-uid="Utf8Json.JsonSerializer.Deserialize``1(System.Byte[])">
+  Deserialize&lt;T&gt;(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(byte[] bytes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_System_Byte___System_Int32_" data-uid="Utf8Json.JsonSerializer.Deserialize``1(System.Byte[],System.Int32)">
+  Deserialize&lt;T&gt;(byte[], int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(byte[] bytes, int offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_System_Byte___System_Int32_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.Deserialize``1(System.Byte[],System.Int32,Utf8Json.IJsonFormatterResolver)">
+  Deserialize&lt;T&gt;(byte[], int, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(byte[] bytes, int offset, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_System_Byte___Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.Deserialize``1(System.Byte[],Utf8Json.IJsonFormatterResolver)">
+  Deserialize&lt;T&gt;(byte[], IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(byte[] bytes, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_System_IO_Stream_" data-uid="Utf8Json.JsonSerializer.Deserialize``1(System.IO.Stream)">
+  Deserialize&lt;T&gt;(Stream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(Stream stream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_System_IO_Stream_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.Deserialize``1(System.IO.Stream,Utf8Json.IJsonFormatterResolver)">
+  Deserialize&lt;T&gt;(Stream, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(Stream stream, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_System_String_" data-uid="Utf8Json.JsonSerializer.Deserialize``1(System.String)">
+  Deserialize&lt;T&gt;(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(string json)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>json</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_System_String_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.Deserialize``1(System.String,Utf8Json.IJsonFormatterResolver)">
+  Deserialize&lt;T&gt;(string, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(string json, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>json</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_Utf8Json_JsonReader__" data-uid="Utf8Json.JsonSerializer.Deserialize``1(Utf8Json.JsonReader@)">
+  Deserialize&lt;T&gt;(ref JsonReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(ref JsonReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="Utf8Json.JsonReader.html">JsonReader</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Deserialize_" data-uid="Utf8Json.JsonSerializer.Deserialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Deserialize__1_Utf8Json_JsonReader__Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.Deserialize``1(Utf8Json.JsonReader@,Utf8Json.IJsonFormatterResolver)">
+  Deserialize&lt;T&gt;(ref JsonReader, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(ref JsonReader reader, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="Utf8Json.JsonReader.html">JsonReader</a></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_PrettyPrint_" data-uid="Utf8Json.JsonSerializer.PrettyPrint*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_PrettyPrint_System_Byte___" data-uid="Utf8Json.JsonSerializer.PrettyPrint(System.Byte[])">
+  PrettyPrint(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PrettyPrint(byte[] json)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>json</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_PrettyPrint_" data-uid="Utf8Json.JsonSerializer.PrettyPrint*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_PrettyPrint_System_Byte___System_Int32_" data-uid="Utf8Json.JsonSerializer.PrettyPrint(System.Byte[],System.Int32)">
+  PrettyPrint(byte[], int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PrettyPrint(byte[] json, int offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>json</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_PrettyPrint_" data-uid="Utf8Json.JsonSerializer.PrettyPrint*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_PrettyPrint_System_String_" data-uid="Utf8Json.JsonSerializer.PrettyPrint(System.String)">
+  PrettyPrint(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PrettyPrint(string json)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>json</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_PrettyPrintByteArray_" data-uid="Utf8Json.JsonSerializer.PrettyPrintByteArray*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_PrettyPrintByteArray_System_Byte___" data-uid="Utf8Json.JsonSerializer.PrettyPrintByteArray(System.Byte[])">
+  PrettyPrintByteArray(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] PrettyPrintByteArray(byte[] json)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>json</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_PrettyPrintByteArray_" data-uid="Utf8Json.JsonSerializer.PrettyPrintByteArray*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_PrettyPrintByteArray_System_Byte___System_Int32_" data-uid="Utf8Json.JsonSerializer.PrettyPrintByteArray(System.Byte[],System.Int32)">
+  PrettyPrintByteArray(byte[], int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] PrettyPrintByteArray(byte[] json, int offset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>json</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_PrettyPrintByteArray_" data-uid="Utf8Json.JsonSerializer.PrettyPrintByteArray*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_PrettyPrintByteArray_System_String_" data-uid="Utf8Json.JsonSerializer.PrettyPrintByteArray(System.String)">
+  PrettyPrintByteArray(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] PrettyPrintByteArray(string json)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>json</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_SerializeUnsafe_" data-uid="Utf8Json.JsonSerializer.SerializeUnsafe*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_SerializeUnsafe__1___0_" data-uid="Utf8Json.JsonSerializer.SerializeUnsafe``1(``0)">
+  SerializeUnsafe&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serialize to binary. Get the raw memory pool byte[]. The result can not share across thread and can not hold, so use quickly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArraySegment&lt;byte&gt; SerializeUnsafe&lt;T&gt;(T obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_SerializeUnsafe_" data-uid="Utf8Json.JsonSerializer.SerializeUnsafe*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_SerializeUnsafe__1___0_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.SerializeUnsafe``1(``0,Utf8Json.IJsonFormatterResolver)">
+  SerializeUnsafe&lt;T&gt;(T, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serialize to binary with specified resolver. Get the raw memory pool byte[]. The result can not share across thread and can not hold, so use quickly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArraySegment&lt;byte&gt; SerializeUnsafe&lt;T&gt;(T value, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Serialize_" data-uid="Utf8Json.JsonSerializer.Serialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Serialize__1_System_IO_Stream___0_" data-uid="Utf8Json.JsonSerializer.Serialize``1(System.IO.Stream,``0)">
+  Serialize&lt;T&gt;(Stream, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serialize to stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Serialize&lt;T&gt;(Stream stream, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Serialize_" data-uid="Utf8Json.JsonSerializer.Serialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Serialize__1_System_IO_Stream___0_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.Serialize``1(System.IO.Stream,``0,Utf8Json.IJsonFormatterResolver)">
+  Serialize&lt;T&gt;(Stream, T, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serialize to stream with specified resolver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Serialize&lt;T&gt;(Stream stream, T value, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Serialize_" data-uid="Utf8Json.JsonSerializer.Serialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Serialize__1_Utf8Json_JsonWriter____0_" data-uid="Utf8Json.JsonSerializer.Serialize``1(Utf8Json.JsonWriter@,``0)">
+  Serialize&lt;T&gt;(ref JsonWriter, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Serialize&lt;T&gt;(ref JsonWriter writer, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="Utf8Json.JsonWriter.html">JsonWriter</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Serialize_" data-uid="Utf8Json.JsonSerializer.Serialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Serialize__1_Utf8Json_JsonWriter____0_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.Serialize``1(Utf8Json.JsonWriter@,``0,Utf8Json.IJsonFormatterResolver)">
+  Serialize&lt;T&gt;(ref JsonWriter, T, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Serialize&lt;T&gt;(ref JsonWriter writer, T value, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="Utf8Json.JsonWriter.html">JsonWriter</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Serialize_" data-uid="Utf8Json.JsonSerializer.Serialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Serialize__1___0_" data-uid="Utf8Json.JsonSerializer.Serialize``1(``0)">
+  Serialize&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serialize to binary with default resolver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] Serialize&lt;T&gt;(T obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_Serialize_" data-uid="Utf8Json.JsonSerializer.Serialize*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_Serialize__1___0_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.Serialize``1(``0,Utf8Json.IJsonFormatterResolver)">
+  Serialize&lt;T&gt;(T, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serialize to binary with specified resolver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] Serialize&lt;T&gt;(T value, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_SetDefaultResolver_" data-uid="Utf8Json.JsonSerializer.SetDefaultResolver*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_SetDefaultResolver_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.SetDefaultResolver(Utf8Json.IJsonFormatterResolver)">
+  SetDefaultResolver(IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set default resolver of Utf8Json APIs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDefaultResolver(IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_ToJsonString_" data-uid="Utf8Json.JsonSerializer.ToJsonString*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_ToJsonString__1___0_" data-uid="Utf8Json.JsonSerializer.ToJsonString``1(``0)">
+  ToJsonString&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serialize to JsonString.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToJsonString&lt;T&gt;(T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Utf8Json_JsonSerializer_ToJsonString_" data-uid="Utf8Json.JsonSerializer.ToJsonString*"></a>
+
+  <h3 id="Utf8Json_JsonSerializer_ToJsonString__1___0_Utf8Json_IJsonFormatterResolver_" data-uid="Utf8Json.JsonSerializer.ToJsonString``1(``0,Utf8Json.IJsonFormatterResolver)">
+  ToJsonString&lt;T&gt;(T, IJsonFormatterResolver)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serialize to JsonString with specified resolver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToJsonString&lt;T&gt;(T value, IJsonFormatterResolver resolver)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>resolver</code> <a class="xref" href="Utf8Json.IJsonFormatterResolver.html">IJsonFormatterResolver</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © NEFTA. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

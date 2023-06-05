@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Introduction | Nefta SDK </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Introduction | Nefta SDK ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Unity API">
+            Unity API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h2 id="introduction">Introduction</h2>
+
+<p>Welcome to the Nefta Toolbox Unity Package!
+This package is designed to provide a set of tools and assets to help you quickly and easily create your own games and projects within the Unity game engine.</p>
+<h2 id="requirements">Requirements</h2>
+<p>Unity 2020.3 or later</p>
+<h2 id="supported-platforms">Supported platforms</h2>
+<p>Standalone, IOS, Android, Webgl</p>
+<h2 id="neftaeditorwindow">NeftaEditorWindow</h2>
+<p>The Nefta Toolbox Unity Package comes with an EditorWindow. To access the window, you should click <em>window</em> -&gt; <em>NeftaToolboxSDK</em> in Unity.</p>
+<h2 id="usage">Usage</h2>
+<p>You can explore the example DemoScene and examine the source code of the scripts and components.</p>
+<p>To get started using the package, configure the SDK in Unity menu: Window &gt; Nefta SDK; Configuration &gt; Marketplace Id with 'm-' from Nefta platform as parameter.
+In your code initialize toolbox by calling Nefta.ToolboxSdk.Toolbox.Init.</p>
+<h3 id="oauth-sign-in-options">oAuth sign-in options</h3>
+<p>In order to use oAuth sign-in options, you have to set your oAuth provider client id and secret in OAuthPanel.cs.</p>
+<ul>
+<li><p>A note about <em>Asset Traits</em>. You have to add your custom traits into the <em>Traits</em> class. This allows you to access all metadata relating to assets that are created through the dashboard.</p>
+</li>
+<li><p>A note about testing the authorisation methods. In order to test the different authorization methods, after each attempt, you will need to click <em>Clear Logged In PlayerPrefs</em> in the NeftaEditorWindow.</p>
+</li>
+</ul>
+<h2 id="documentation">Documentation</h2>
+<p>You can find online documentation for the NeftaToolboxSDK here: <a href="https://docs.nefta.io/docs/unity-sdk">https://docs.nefta.io/docs/unity-sdk</a></p>
+<p>The BE API reference can be found here: <a href="https://docs.nefta.io/reference/">https://docs.nefta.io/reference/</a></p>
+<p>While the Toolbox SDK API reference be be found here:
+<a href="https://storage.googleapis.com/public_nefta_bucket/html/namespaces.html">https://storage.googleapis.com/public_nefta_bucket/html/namespaces.html</a></p>
+<h2 id="support">Support</h2>
+<p>If you need help or have any questions about the Unity Package, please feel free to reach out to the development team by email at support@Nefta.io. We will do our best to assist you and resolve any issues as quickly as possible.</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © NEFTA. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
