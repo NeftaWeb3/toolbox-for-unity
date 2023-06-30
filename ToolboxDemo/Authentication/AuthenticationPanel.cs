@@ -15,9 +15,8 @@ namespace Nefta.ToolboxDemo.Authentication
 
         protected override void OnInit()
         {
-#if NEFTA_INTEGRATION_METAMASK
             _metaMaskSignUpButton.onClick.AddListener(OnMetaMaskSignUpClick);
-#else 
+#if !NEFTA_INTEGRATION_METAMASK 
             _metaMaskSignUpButton.gameObject.SetActive(false);
 #endif
             foreach (var oAuthButton in _oAuthButtons)
@@ -29,13 +28,11 @@ namespace Nefta.ToolboxDemo.Authentication
             _fullUserSignUpButton.onClick.AddListener(OnFullUserSignUpClick);
             _loginButton.onClick.AddListener(OnLoginClick);
         }
-
-#if NEFTA_INTEGRATION_METAMASK
+        
         private void OnMetaMaskSignUpClick()
         {
             _masterPanel.OpenMetaMask();
         }
-#endif
 
         private void OnGuestSignUpClick()
         {

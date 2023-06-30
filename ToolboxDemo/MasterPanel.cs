@@ -1,5 +1,6 @@
 using Nefta.ToolboxDemo.Assets;
 using Nefta.ToolboxDemo.Authentication;
+using Nefta.ToolboxDemo.Authentication.MetaMask;
 using Nefta.ToolboxDemo.Currencies;
 using Nefta.ToolboxDemo.Marketplace;
 using Nefta.ToolboxDemo.User;
@@ -14,9 +15,7 @@ namespace Nefta.ToolboxDemo
     {
         [Header("Authentication")]
         [SerializeField] private AuthenticationPanel _authenticationPanel;
-#if NEFTA_INTEGRATION_METAMASK
         [SerializeField] private MetaMaskPanel _metaMaskPanel;
-#endif
         [SerializeField] private OAuthPanel _oAuthPanel;
         [SerializeField] private GuestPanel _guestPanel;
         [SerializeField] private FullUserPanel _fullUserPanel;
@@ -63,9 +62,7 @@ namespace Nefta.ToolboxDemo
             
             _authenticationPanel.Init(this, _statusPanel);
             
-#if NEFTA_INTEGRATION_METAMASK
             _metaMaskPanel.Init(this, _statusPanel);
-#endif
             _oAuthPanel.Init(this, _statusPanel);
             _guestPanel.Init(this, _statusPanel);
             _fullUserPanel.Init(this, _statusPanel);
@@ -99,12 +96,10 @@ namespace Nefta.ToolboxDemo
             OpenPanel(_authenticationPanel);
         }
         
-#if NEFTA_INTEGRATION_METAMASK
         public void OpenMetaMask()
         {
             OpenPanel(_metaMaskPanel);
         }
-#endif
 
         public void OpenOAuth2(ToolboxConfiguration.OAuthProvider provider)
         {

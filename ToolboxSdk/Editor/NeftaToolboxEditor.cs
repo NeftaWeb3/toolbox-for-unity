@@ -71,6 +71,7 @@ namespace Nefta.ToolboxSdk.Editor
             if (GUILayout.Button("Apply"))
             {
                 UpdateConfigurationOnDisk();
+
             }
             EditorGUILayout.EndHorizontal();
             
