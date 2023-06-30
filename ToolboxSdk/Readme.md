@@ -25,7 +25,7 @@ In your code initialize toolbox by calling Nefta.ToolboxSdk.Toolbox.Init.
 
 ### Logging
 
-By default all logging is stripped out for best runtime performance. In order to enable them you have to add NEFTA_SDK_PROD define symbol. You can easily toggle this in Utility tab of Nefta SDK editor window:
+By default all logging is enabled. In order to disable them, change the define symbol from NEFTA_SDK_DBG to NEFTA_SDK_REL. You can also change this in the editor window:
 ![Toggle logging through editor window](../Documentation/ToggleLogging.png)
 
 ### oAuth sign-in options
@@ -35,6 +35,8 @@ In order to use oAuth sign-in options, you have to set your oAuth provider clien
 - A note about _Asset Traits_. You have to add your custom traits into the _Traits_ class. This allows you to access all metadata relating to assets that are created through the dashboard.
 
 - A note about testing the authorisation methods. In order to test the different authorization methods, after each attempt, you will need to click _Clear Logged In PlayerPrefs_ in the NeftaEditorWindow.
+
+- In order for the MetaMask integration to work, you have to install official MetaMask package and add NEFTA_INTEGRATION_METAMASK symbol.
 
 ## Documentation
 
