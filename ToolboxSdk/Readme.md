@@ -40,12 +40,11 @@ In order to use oAuth sign-in options, you have to set your oAuth provider clien
 
 ## Documentation
 
-You can find online documentation for the NeftaToolboxSDK here: https://neftaweb3.github.io/toolbox-for-unity/api/Nefta.ToolboxSdk.Toolbox.html
+You can find online documentation for the NeftaToolboxSDK here: https://docs.nefta.io/docs/neftaunity-sdk
 
 The BE API reference can be found here: https://docs.nefta.io/reference/
 
-While the Toolbox SDK API reference be be found here:
-https://neftaweb3.github.io/toolbox-for-unity/ToolboxSdk/Nefta.ToolboxSdk.Toolbox.html
+While the Toolbox SDK API reference be be found here: https://neftaweb3.github.io/suite-for-unity/ToolboxSdk/Nefta.ToolboxSdk.Toolbox.html
 
 ## Support
 
