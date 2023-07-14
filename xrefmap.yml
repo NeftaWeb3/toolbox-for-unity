@@ -2926,44 +2926,414 @@ references:
   nameWithType: WebViewObject.SetVisibility
 - uid: Nefta.Core
   name: Nefta.Core
-  href: ToolboxSdk/Nefta.Core.html
+  href: CoreSdk/Nefta.Core.html
   commentId: N:Nefta.Core
   fullName: Nefta.Core
   nameWithType: Nefta.Core
+- uid: Nefta.Core.NeftaAnalytics
+  name: NeftaAnalytics
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html
+  commentId: T:Nefta.Core.NeftaAnalytics
+  fullName: Nefta.Core.NeftaAnalytics
+  nameWithType: NeftaAnalytics
+- uid: Nefta.Core.NeftaAnalytics.Category
+  name: NeftaAnalytics.Category
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html
+  commentId: T:Nefta.Core.NeftaAnalytics.Category
+  fullName: Nefta.Core.NeftaAnalytics.Category
+  nameWithType: NeftaAnalytics.Category
+- uid: Nefta.Core.NeftaAnalytics.Category.Chest
+  name: Chest
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_Chest
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.Chest
+  fullName: Nefta.Core.NeftaAnalytics.Category.Chest
+  nameWithType: NeftaAnalytics.Category.Chest
+- uid: Nefta.Core.NeftaAnalytics.Category.Consumable
+  name: Consumable
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_Consumable
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.Consumable
+  fullName: Nefta.Core.NeftaAnalytics.Category.Consumable
+  nameWithType: NeftaAnalytics.Category.Consumable
+- uid: Nefta.Core.NeftaAnalytics.Category.CoreItem
+  name: CoreItem
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_CoreItem
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.CoreItem
+  fullName: Nefta.Core.NeftaAnalytics.Category.CoreItem
+  nameWithType: NeftaAnalytics.Category.CoreItem
+- uid: Nefta.Core.NeftaAnalytics.Category.CosmeticItem
+  name: CosmeticItem
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_CosmeticItem
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.CosmeticItem
+  fullName: Nefta.Core.NeftaAnalytics.Category.CosmeticItem
+  nameWithType: NeftaAnalytics.Category.CosmeticItem
+- uid: Nefta.Core.NeftaAnalytics.Category.Experience
+  name: Experience
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_Experience
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.Experience
+  fullName: Nefta.Core.NeftaAnalytics.Category.Experience
+  nameWithType: NeftaAnalytics.Category.Experience
+- uid: Nefta.Core.NeftaAnalytics.Category.Other
+  name: Other
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_Other
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.Other
+  fullName: Nefta.Core.NeftaAnalytics.Category.Other
+  nameWithType: NeftaAnalytics.Category.Other
+- uid: Nefta.Core.NeftaAnalytics.Category.PremiumCurrency
+  name: PremiumCurrency
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_PremiumCurrency
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.PremiumCurrency
+  fullName: Nefta.Core.NeftaAnalytics.Category.PremiumCurrency
+  nameWithType: NeftaAnalytics.Category.PremiumCurrency
+- uid: Nefta.Core.NeftaAnalytics.Category.Resource
+  name: Resource
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_Resource
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.Resource
+  fullName: Nefta.Core.NeftaAnalytics.Category.Resource
+  nameWithType: NeftaAnalytics.Category.Resource
+- uid: Nefta.Core.NeftaAnalytics.Category.SoftCurrency
+  name: SoftCurrency
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Category.html#Nefta_Core_NeftaAnalytics_Category_SoftCurrency
+  commentId: F:Nefta.Core.NeftaAnalytics.Category.SoftCurrency
+  fullName: Nefta.Core.NeftaAnalytics.Category.SoftCurrency
+  nameWithType: NeftaAnalytics.Category.SoftCurrency
+- uid: Nefta.Core.NeftaAnalytics.EnableTracking(System.Boolean)
+  name: EnableTracking(bool)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_EnableTracking_System_Boolean_
+  commentId: M:Nefta.Core.NeftaAnalytics.EnableTracking(System.Boolean)
+  name.vb: EnableTracking(Boolean)
+  fullName: Nefta.Core.NeftaAnalytics.EnableTracking(bool)
+  fullName.vb: Nefta.Core.NeftaAnalytics.EnableTracking(Boolean)
+  nameWithType: NeftaAnalytics.EnableTracking(bool)
+  nameWithType.vb: NeftaAnalytics.EnableTracking(Boolean)
+- uid: Nefta.Core.NeftaAnalytics.EnableTracking*
+  name: EnableTracking
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_EnableTracking_
+  commentId: Overload:Nefta.Core.NeftaAnalytics.EnableTracking
+  isSpec: "True"
+  fullName: Nefta.Core.NeftaAnalytics.EnableTracking
+  nameWithType: NeftaAnalytics.EnableTracking
+- uid: Nefta.Core.NeftaAnalytics.Instance
+  name: Instance
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_Instance
+  commentId: F:Nefta.Core.NeftaAnalytics.Instance
+  fullName: Nefta.Core.NeftaAnalytics.Instance
+  nameWithType: NeftaAnalytics.Instance
+- uid: Nefta.Core.NeftaAnalytics.Method
+  name: NeftaAnalytics.Method
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html
+  commentId: T:Nefta.Core.NeftaAnalytics.Method
+  fullName: Nefta.Core.NeftaAnalytics.Method
+  nameWithType: NeftaAnalytics.Method
+- uid: Nefta.Core.NeftaAnalytics.Method.Boost
+  name: Boost
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Boost
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Boost
+  fullName: Nefta.Core.NeftaAnalytics.Method.Boost
+  nameWithType: NeftaAnalytics.Method.Boost
+- uid: Nefta.Core.NeftaAnalytics.Method.Continuity
+  name: Continuity
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Continuity
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Continuity
+  fullName: Nefta.Core.NeftaAnalytics.Method.Continuity
+  nameWithType: NeftaAnalytics.Method.Continuity
+- uid: Nefta.Core.NeftaAnalytics.Method.Create
+  name: Create
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Create
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Create
+  fullName: Nefta.Core.NeftaAnalytics.Method.Create
+  nameWithType: NeftaAnalytics.Method.Create
+- uid: Nefta.Core.NeftaAnalytics.Method.IAP
+  name: IAP
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_IAP
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.IAP
+  fullName: Nefta.Core.NeftaAnalytics.Method.IAP
+  nameWithType: NeftaAnalytics.Method.IAP
+- uid: Nefta.Core.NeftaAnalytics.Method.Level
+  name: Level
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Level
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Level
+  fullName: Nefta.Core.NeftaAnalytics.Method.Level
+  nameWithType: NeftaAnalytics.Method.Level
+- uid: Nefta.Core.NeftaAnalytics.Method.Looted
+  name: Looted
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Looted
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Looted
+  fullName: Nefta.Core.NeftaAnalytics.Method.Looted
+  nameWithType: NeftaAnalytics.Method.Looted
+- uid: Nefta.Core.NeftaAnalytics.Method.Other
+  name: Other
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Other
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Other
+  fullName: Nefta.Core.NeftaAnalytics.Method.Other
+  nameWithType: NeftaAnalytics.Method.Other
+- uid: Nefta.Core.NeftaAnalytics.Method.Reward
+  name: Reward
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Reward
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Reward
+  fullName: Nefta.Core.NeftaAnalytics.Method.Reward
+  nameWithType: NeftaAnalytics.Method.Reward
+- uid: Nefta.Core.NeftaAnalytics.Method.Shop
+  name: Shop
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Shop
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Shop
+  fullName: Nefta.Core.NeftaAnalytics.Method.Shop
+  nameWithType: NeftaAnalytics.Method.Shop
+- uid: Nefta.Core.NeftaAnalytics.Method.Undefined
+  name: Undefined
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Undefined
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Undefined
+  fullName: Nefta.Core.NeftaAnalytics.Method.Undefined
+  nameWithType: NeftaAnalytics.Method.Undefined
+- uid: Nefta.Core.NeftaAnalytics.Method.Upgrade
+  name: Upgrade
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Method.html#Nefta_Core_NeftaAnalytics_Method_Upgrade
+  commentId: F:Nefta.Core.NeftaAnalytics.Method.Upgrade
+  fullName: Nefta.Core.NeftaAnalytics.Method.Upgrade
+  nameWithType: NeftaAnalytics.Method.Upgrade
+- uid: Nefta.Core.NeftaAnalytics.NewGetEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32,Nefta.Core.NeftaAnalytics.Method,System.String)
+  name: NewGetEvent(string, Category, int, Method, string)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewGetEvent_System_String_Nefta_Core_NeftaAnalytics_Category_System_Int32_Nefta_Core_NeftaAnalytics_Method_System_String_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewGetEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32,Nefta.Core.NeftaAnalytics.Method,System.String)
+  name.vb: NewGetEvent(String, Category, Integer, Method, String)
+  fullName: Nefta.Core.NeftaAnalytics.NewGetEvent(string, Nefta.Core.NeftaAnalytics.Category, int, Nefta.Core.NeftaAnalytics.Method, string)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewGetEvent(String, Nefta.Core.NeftaAnalytics.Category, Integer, Nefta.Core.NeftaAnalytics.Method, String)
+  nameWithType: NeftaAnalytics.NewGetEvent(string, NeftaAnalytics.Category, int, NeftaAnalytics.Method, string)
+  nameWithType.vb: NeftaAnalytics.NewGetEvent(String, NeftaAnalytics.Category, Integer, NeftaAnalytics.Method, String)
+- uid: Nefta.Core.NeftaAnalytics.NewGetEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32,Nefta.Core.NeftaAnalytics.Method)
+  name: NewGetEvent(string, Category, int, Method)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewGetEvent_System_String_Nefta_Core_NeftaAnalytics_Category_System_Int32_Nefta_Core_NeftaAnalytics_Method_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewGetEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32,Nefta.Core.NeftaAnalytics.Method)
+  name.vb: NewGetEvent(String, Category, Integer, Method)
+  fullName: Nefta.Core.NeftaAnalytics.NewGetEvent(string, Nefta.Core.NeftaAnalytics.Category, int, Nefta.Core.NeftaAnalytics.Method)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewGetEvent(String, Nefta.Core.NeftaAnalytics.Category, Integer, Nefta.Core.NeftaAnalytics.Method)
+  nameWithType: NeftaAnalytics.NewGetEvent(string, NeftaAnalytics.Category, int, NeftaAnalytics.Method)
+  nameWithType.vb: NeftaAnalytics.NewGetEvent(String, NeftaAnalytics.Category, Integer, NeftaAnalytics.Method)
+- uid: Nefta.Core.NeftaAnalytics.NewGetEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32)
+  name: NewGetEvent(string, Category, int)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewGetEvent_System_String_Nefta_Core_NeftaAnalytics_Category_System_Int32_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewGetEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32)
+  name.vb: NewGetEvent(String, Category, Integer)
+  fullName: Nefta.Core.NeftaAnalytics.NewGetEvent(string, Nefta.Core.NeftaAnalytics.Category, int)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewGetEvent(String, Nefta.Core.NeftaAnalytics.Category, Integer)
+  nameWithType: NeftaAnalytics.NewGetEvent(string, NeftaAnalytics.Category, int)
+  nameWithType.vb: NeftaAnalytics.NewGetEvent(String, NeftaAnalytics.Category, Integer)
+- uid: Nefta.Core.NeftaAnalytics.NewGetEvent*
+  name: NewGetEvent
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewGetEvent_
+  commentId: Overload:Nefta.Core.NeftaAnalytics.NewGetEvent
+  isSpec: "True"
+  fullName: Nefta.Core.NeftaAnalytics.NewGetEvent
+  nameWithType: NeftaAnalytics.NewGetEvent
+- uid: Nefta.Core.NeftaAnalytics.NewProgressionEvent(System.String,Nefta.Core.NeftaAnalytics.Status,Nefta.Core.NeftaAnalytics.ProgressionType,Nefta.Core.NeftaAnalytics.ProgressionSource,System.Int64,System.String)
+  name: NewProgressionEvent(string, Status, ProgressionType, ProgressionSource, long, string)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewProgressionEvent_System_String_Nefta_Core_NeftaAnalytics_Status_Nefta_Core_NeftaAnalytics_ProgressionType_Nefta_Core_NeftaAnalytics_ProgressionSource_System_Int64_System_String_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewProgressionEvent(System.String,Nefta.Core.NeftaAnalytics.Status,Nefta.Core.NeftaAnalytics.ProgressionType,Nefta.Core.NeftaAnalytics.ProgressionSource,System.Int64,System.String)
+  name.vb: NewProgressionEvent(String, Status, ProgressionType, ProgressionSource, Long, String)
+  fullName: Nefta.Core.NeftaAnalytics.NewProgressionEvent(string, Nefta.Core.NeftaAnalytics.Status, Nefta.Core.NeftaAnalytics.ProgressionType, Nefta.Core.NeftaAnalytics.ProgressionSource, long, string)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewProgressionEvent(String, Nefta.Core.NeftaAnalytics.Status, Nefta.Core.NeftaAnalytics.ProgressionType, Nefta.Core.NeftaAnalytics.ProgressionSource, Long, String)
+  nameWithType: NeftaAnalytics.NewProgressionEvent(string, NeftaAnalytics.Status, NeftaAnalytics.ProgressionType, NeftaAnalytics.ProgressionSource, long, string)
+  nameWithType.vb: NeftaAnalytics.NewProgressionEvent(String, NeftaAnalytics.Status, NeftaAnalytics.ProgressionType, NeftaAnalytics.ProgressionSource, Long, String)
+- uid: Nefta.Core.NeftaAnalytics.NewProgressionEvent(System.String,Nefta.Core.NeftaAnalytics.Status,Nefta.Core.NeftaAnalytics.ProgressionType,Nefta.Core.NeftaAnalytics.ProgressionSource,System.Int64)
+  name: NewProgressionEvent(string, Status, ProgressionType, ProgressionSource, long)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewProgressionEvent_System_String_Nefta_Core_NeftaAnalytics_Status_Nefta_Core_NeftaAnalytics_ProgressionType_Nefta_Core_NeftaAnalytics_ProgressionSource_System_Int64_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewProgressionEvent(System.String,Nefta.Core.NeftaAnalytics.Status,Nefta.Core.NeftaAnalytics.ProgressionType,Nefta.Core.NeftaAnalytics.ProgressionSource,System.Int64)
+  name.vb: NewProgressionEvent(String, Status, ProgressionType, ProgressionSource, Long)
+  fullName: Nefta.Core.NeftaAnalytics.NewProgressionEvent(string, Nefta.Core.NeftaAnalytics.Status, Nefta.Core.NeftaAnalytics.ProgressionType, Nefta.Core.NeftaAnalytics.ProgressionSource, long)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewProgressionEvent(String, Nefta.Core.NeftaAnalytics.Status, Nefta.Core.NeftaAnalytics.ProgressionType, Nefta.Core.NeftaAnalytics.ProgressionSource, Long)
+  nameWithType: NeftaAnalytics.NewProgressionEvent(string, NeftaAnalytics.Status, NeftaAnalytics.ProgressionType, NeftaAnalytics.ProgressionSource, long)
+  nameWithType.vb: NeftaAnalytics.NewProgressionEvent(String, NeftaAnalytics.Status, NeftaAnalytics.ProgressionType, NeftaAnalytics.ProgressionSource, Long)
+- uid: Nefta.Core.NeftaAnalytics.NewProgressionEvent(System.String,Nefta.Core.NeftaAnalytics.Status,Nefta.Core.NeftaAnalytics.ProgressionType)
+  name: NewProgressionEvent(string, Status, ProgressionType)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewProgressionEvent_System_String_Nefta_Core_NeftaAnalytics_Status_Nefta_Core_NeftaAnalytics_ProgressionType_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewProgressionEvent(System.String,Nefta.Core.NeftaAnalytics.Status,Nefta.Core.NeftaAnalytics.ProgressionType)
+  name.vb: NewProgressionEvent(String, Status, ProgressionType)
+  fullName: Nefta.Core.NeftaAnalytics.NewProgressionEvent(string, Nefta.Core.NeftaAnalytics.Status, Nefta.Core.NeftaAnalytics.ProgressionType)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewProgressionEvent(String, Nefta.Core.NeftaAnalytics.Status, Nefta.Core.NeftaAnalytics.ProgressionType)
+  nameWithType: NeftaAnalytics.NewProgressionEvent(string, NeftaAnalytics.Status, NeftaAnalytics.ProgressionType)
+  nameWithType.vb: NeftaAnalytics.NewProgressionEvent(String, NeftaAnalytics.Status, NeftaAnalytics.ProgressionType)
+- uid: Nefta.Core.NeftaAnalytics.NewProgressionEvent*
+  name: NewProgressionEvent
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewProgressionEvent_
+  commentId: Overload:Nefta.Core.NeftaAnalytics.NewProgressionEvent
+  isSpec: "True"
+  fullName: Nefta.Core.NeftaAnalytics.NewProgressionEvent
+  nameWithType: NeftaAnalytics.NewProgressionEvent
+- uid: Nefta.Core.NeftaAnalytics.NewSpentEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32,Nefta.Core.NeftaAnalytics.Method,System.String)
+  name: NewSpentEvent(string, Category, int, Method, string)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewSpentEvent_System_String_Nefta_Core_NeftaAnalytics_Category_System_Int32_Nefta_Core_NeftaAnalytics_Method_System_String_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewSpentEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32,Nefta.Core.NeftaAnalytics.Method,System.String)
+  name.vb: NewSpentEvent(String, Category, Integer, Method, String)
+  fullName: Nefta.Core.NeftaAnalytics.NewSpentEvent(string, Nefta.Core.NeftaAnalytics.Category, int, Nefta.Core.NeftaAnalytics.Method, string)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewSpentEvent(String, Nefta.Core.NeftaAnalytics.Category, Integer, Nefta.Core.NeftaAnalytics.Method, String)
+  nameWithType: NeftaAnalytics.NewSpentEvent(string, NeftaAnalytics.Category, int, NeftaAnalytics.Method, string)
+  nameWithType.vb: NeftaAnalytics.NewSpentEvent(String, NeftaAnalytics.Category, Integer, NeftaAnalytics.Method, String)
+- uid: Nefta.Core.NeftaAnalytics.NewSpentEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32,Nefta.Core.NeftaAnalytics.Method)
+  name: NewSpentEvent(string, Category, int, Method)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewSpentEvent_System_String_Nefta_Core_NeftaAnalytics_Category_System_Int32_Nefta_Core_NeftaAnalytics_Method_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewSpentEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32,Nefta.Core.NeftaAnalytics.Method)
+  name.vb: NewSpentEvent(String, Category, Integer, Method)
+  fullName: Nefta.Core.NeftaAnalytics.NewSpentEvent(string, Nefta.Core.NeftaAnalytics.Category, int, Nefta.Core.NeftaAnalytics.Method)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewSpentEvent(String, Nefta.Core.NeftaAnalytics.Category, Integer, Nefta.Core.NeftaAnalytics.Method)
+  nameWithType: NeftaAnalytics.NewSpentEvent(string, NeftaAnalytics.Category, int, NeftaAnalytics.Method)
+  nameWithType.vb: NeftaAnalytics.NewSpentEvent(String, NeftaAnalytics.Category, Integer, NeftaAnalytics.Method)
+- uid: Nefta.Core.NeftaAnalytics.NewSpentEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32)
+  name: NewSpentEvent(string, Category, int)
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewSpentEvent_System_String_Nefta_Core_NeftaAnalytics_Category_System_Int32_
+  commentId: M:Nefta.Core.NeftaAnalytics.NewSpentEvent(System.String,Nefta.Core.NeftaAnalytics.Category,System.Int32)
+  name.vb: NewSpentEvent(String, Category, Integer)
+  fullName: Nefta.Core.NeftaAnalytics.NewSpentEvent(string, Nefta.Core.NeftaAnalytics.Category, int)
+  fullName.vb: Nefta.Core.NeftaAnalytics.NewSpentEvent(String, Nefta.Core.NeftaAnalytics.Category, Integer)
+  nameWithType: NeftaAnalytics.NewSpentEvent(string, NeftaAnalytics.Category, int)
+  nameWithType.vb: NeftaAnalytics.NewSpentEvent(String, NeftaAnalytics.Category, Integer)
+- uid: Nefta.Core.NeftaAnalytics.NewSpentEvent*
+  name: NewSpentEvent
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.html#Nefta_Core_NeftaAnalytics_NewSpentEvent_
+  commentId: Overload:Nefta.Core.NeftaAnalytics.NewSpentEvent
+  isSpec: "True"
+  fullName: Nefta.Core.NeftaAnalytics.NewSpentEvent
+  nameWithType: NeftaAnalytics.NewSpentEvent
+- uid: Nefta.Core.NeftaAnalytics.ProgressionSource
+  name: NeftaAnalytics.ProgressionSource
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html
+  commentId: T:Nefta.Core.NeftaAnalytics.ProgressionSource
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionSource
+  nameWithType: NeftaAnalytics.ProgressionSource
+- uid: Nefta.Core.NeftaAnalytics.ProgressionSource.Boss
+  name: Boss
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html#Nefta_Core_NeftaAnalytics_ProgressionSource_Boss
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionSource.Boss
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionSource.Boss
+  nameWithType: NeftaAnalytics.ProgressionSource.Boss
+- uid: Nefta.Core.NeftaAnalytics.ProgressionSource.CoreContent
+  name: CoreContent
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html#Nefta_Core_NeftaAnalytics_ProgressionSource_CoreContent
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionSource.CoreContent
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionSource.CoreContent
+  nameWithType: NeftaAnalytics.ProgressionSource.CoreContent
+- uid: Nefta.Core.NeftaAnalytics.ProgressionSource.OptionalContent
+  name: OptionalContent
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html#Nefta_Core_NeftaAnalytics_ProgressionSource_OptionalContent
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionSource.OptionalContent
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionSource.OptionalContent
+  nameWithType: NeftaAnalytics.ProgressionSource.OptionalContent
+- uid: Nefta.Core.NeftaAnalytics.ProgressionSource.Other
+  name: Other
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html#Nefta_Core_NeftaAnalytics_ProgressionSource_Other
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionSource.Other
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionSource.Other
+  nameWithType: NeftaAnalytics.ProgressionSource.Other
+- uid: Nefta.Core.NeftaAnalytics.ProgressionSource.Social
+  name: Social
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html#Nefta_Core_NeftaAnalytics_ProgressionSource_Social
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionSource.Social
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionSource.Social
+  nameWithType: NeftaAnalytics.ProgressionSource.Social
+- uid: Nefta.Core.NeftaAnalytics.ProgressionSource.SpecialEvent
+  name: SpecialEvent
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html#Nefta_Core_NeftaAnalytics_ProgressionSource_SpecialEvent
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionSource.SpecialEvent
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionSource.SpecialEvent
+  nameWithType: NeftaAnalytics.ProgressionSource.SpecialEvent
+- uid: Nefta.Core.NeftaAnalytics.ProgressionSource.Undefined
+  name: Undefined
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html#Nefta_Core_NeftaAnalytics_ProgressionSource_Undefined
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionSource.Undefined
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionSource.Undefined
+  nameWithType: NeftaAnalytics.ProgressionSource.Undefined
+- uid: Nefta.Core.NeftaAnalytics.ProgressionType
+  name: NeftaAnalytics.ProgressionType
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html
+  commentId: T:Nefta.Core.NeftaAnalytics.ProgressionType
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionType
+  nameWithType: NeftaAnalytics.ProgressionType
+- uid: Nefta.Core.NeftaAnalytics.ProgressionType.Achievement
+  name: Achievement
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html#Nefta_Core_NeftaAnalytics_ProgressionType_Achievement
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionType.Achievement
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionType.Achievement
+  nameWithType: NeftaAnalytics.ProgressionType.Achievement
+- uid: Nefta.Core.NeftaAnalytics.ProgressionType.GameplayUnit
+  name: GameplayUnit
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html#Nefta_Core_NeftaAnalytics_ProgressionType_GameplayUnit
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionType.GameplayUnit
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionType.GameplayUnit
+  nameWithType: NeftaAnalytics.ProgressionType.GameplayUnit
+- uid: Nefta.Core.NeftaAnalytics.ProgressionType.ItemLevel
+  name: ItemLevel
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html#Nefta_Core_NeftaAnalytics_ProgressionType_ItemLevel
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionType.ItemLevel
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionType.ItemLevel
+  nameWithType: NeftaAnalytics.ProgressionType.ItemLevel
+- uid: Nefta.Core.NeftaAnalytics.ProgressionType.Other
+  name: Other
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html#Nefta_Core_NeftaAnalytics_ProgressionType_Other
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionType.Other
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionType.Other
+  nameWithType: NeftaAnalytics.ProgressionType.Other
+- uid: Nefta.Core.NeftaAnalytics.ProgressionType.PlayerLevel
+  name: PlayerLevel
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html#Nefta_Core_NeftaAnalytics_ProgressionType_PlayerLevel
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionType.PlayerLevel
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionType.PlayerLevel
+  nameWithType: NeftaAnalytics.ProgressionType.PlayerLevel
+- uid: Nefta.Core.NeftaAnalytics.ProgressionType.Task
+  name: Task
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html#Nefta_Core_NeftaAnalytics_ProgressionType_Task
+  commentId: F:Nefta.Core.NeftaAnalytics.ProgressionType.Task
+  fullName: Nefta.Core.NeftaAnalytics.ProgressionType.Task
+  nameWithType: NeftaAnalytics.ProgressionType.Task
+- uid: Nefta.Core.NeftaAnalytics.Status
+  name: NeftaAnalytics.Status
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Status.html
+  commentId: T:Nefta.Core.NeftaAnalytics.Status
+  fullName: Nefta.Core.NeftaAnalytics.Status
+  nameWithType: NeftaAnalytics.Status
+- uid: Nefta.Core.NeftaAnalytics.Status.Completed
+  name: Completed
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Status.html#Nefta_Core_NeftaAnalytics_Status_Completed
+  commentId: F:Nefta.Core.NeftaAnalytics.Status.Completed
+  fullName: Nefta.Core.NeftaAnalytics.Status.Completed
+  nameWithType: NeftaAnalytics.Status.Completed
+- uid: Nefta.Core.NeftaAnalytics.Status.Fail
+  name: Fail
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Status.html#Nefta_Core_NeftaAnalytics_Status_Fail
+  commentId: F:Nefta.Core.NeftaAnalytics.Status.Fail
+  fullName: Nefta.Core.NeftaAnalytics.Status.Fail
+  nameWithType: NeftaAnalytics.Status.Fail
+- uid: Nefta.Core.NeftaAnalytics.Status.Start
+  name: Start
+  href: CoreSdk/Nefta.Core.NeftaAnalytics.Status.html#Nefta_Core_NeftaAnalytics_Status_Start
+  commentId: F:Nefta.Core.NeftaAnalytics.Status.Start
+  fullName: Nefta.Core.NeftaAnalytics.Status.Start
+  nameWithType: NeftaAnalytics.Status.Start
 - uid: Nefta.Core.NeftaCore
   name: NeftaCore
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html
+  href: CoreSdk/Nefta.Core.NeftaCore.html
   commentId: T:Nefta.Core.NeftaCore
   fullName: Nefta.Core.NeftaCore
   nameWithType: NeftaCore
-- uid: Nefta.Core.NeftaCore.AdModule
-  name: AdModule
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_AdModule
-  commentId: F:Nefta.Core.NeftaCore.AdModule
-  fullName: Nefta.Core.NeftaCore.AdModule
-  nameWithType: NeftaCore.AdModule
 - uid: Nefta.Core.NeftaCore.BaseUrl
   name: BaseUrl
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_BaseUrl
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_BaseUrl
   commentId: F:Nefta.Core.NeftaCore.BaseUrl
   fullName: Nefta.Core.NeftaCore.BaseUrl
   nameWithType: NeftaCore.BaseUrl
 - uid: Nefta.Core.NeftaCore.ClearPrefs
   name: ClearPrefs()
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_ClearPrefs
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_ClearPrefs
   commentId: M:Nefta.Core.NeftaCore.ClearPrefs
   fullName: Nefta.Core.NeftaCore.ClearPrefs()
   nameWithType: NeftaCore.ClearPrefs()
 - uid: Nefta.Core.NeftaCore.ClearPrefs*
   name: ClearPrefs
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_ClearPrefs_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_ClearPrefs_
   commentId: Overload:Nefta.Core.NeftaCore.ClearPrefs
   isSpec: "True"
   fullName: Nefta.Core.NeftaCore.ClearPrefs
   nameWithType: NeftaCore.ClearPrefs
 - uid: Nefta.Core.NeftaCore.Info(System.String)
   name: Info(string)
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Info_System_String_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Info_System_String_
   commentId: M:Nefta.Core.NeftaCore.Info(System.String)
   name.vb: Info(String)
   fullName: Nefta.Core.NeftaCore.Info(string)
@@ -2972,33 +3342,33 @@ references:
   nameWithType.vb: NeftaCore.Info(String)
 - uid: Nefta.Core.NeftaCore.Info*
   name: Info
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Info_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Info_
   commentId: Overload:Nefta.Core.NeftaCore.Info
   isSpec: "True"
   fullName: Nefta.Core.NeftaCore.Info
   nameWithType: NeftaCore.Info
 - uid: Nefta.Core.NeftaCore.Init
   name: Init()
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Init
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Init
   commentId: M:Nefta.Core.NeftaCore.Init
   fullName: Nefta.Core.NeftaCore.Init()
   nameWithType: NeftaCore.Init()
 - uid: Nefta.Core.NeftaCore.Init*
   name: Init
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Init_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Init_
   commentId: Overload:Nefta.Core.NeftaCore.Init
   isSpec: "True"
   fullName: Nefta.Core.NeftaCore.Init
   nameWithType: NeftaCore.Init
 - uid: Nefta.Core.NeftaCore.Instance
   name: Instance
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Instance
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Instance
   commentId: F:Nefta.Core.NeftaCore.Instance
   fullName: Nefta.Core.NeftaCore.Instance
   nameWithType: NeftaCore.Instance
 - uid: Nefta.Core.NeftaCore.Log(System.String)
   name: Log(string)
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Log_System_String_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Log_System_String_
   commentId: M:Nefta.Core.NeftaCore.Log(System.String)
   name.vb: Log(String)
   fullName: Nefta.Core.NeftaCore.Log(string)
@@ -3007,46 +3377,53 @@ references:
   nameWithType.vb: NeftaCore.Log(String)
 - uid: Nefta.Core.NeftaCore.Log*
   name: Log
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Log_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Log_
   commentId: Overload:Nefta.Core.NeftaCore.Log
   isSpec: "True"
   fullName: Nefta.Core.NeftaCore.Log
   nameWithType: NeftaCore.Log
+- uid: Nefta.Core.NeftaCore.NeftaAnalytics
+  name: NeftaAnalytics
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_NeftaAnalytics
+  commentId: P:Nefta.Core.NeftaCore.NeftaAnalytics
+  fullName: Nefta.Core.NeftaCore.NeftaAnalytics
+  nameWithType: NeftaCore.NeftaAnalytics
+- uid: Nefta.Core.NeftaCore.NeftaAnalytics*
+  name: NeftaAnalytics
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_NeftaAnalytics_
+  commentId: Overload:Nefta.Core.NeftaCore.NeftaAnalytics
+  isSpec: "True"
+  fullName: Nefta.Core.NeftaCore.NeftaAnalytics
+  nameWithType: NeftaCore.NeftaAnalytics
 - uid: Nefta.Core.NeftaCore.NeftaUser
   name: NeftaUser
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_NeftaUser
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_NeftaUser
   commentId: P:Nefta.Core.NeftaCore.NeftaUser
   fullName: Nefta.Core.NeftaCore.NeftaUser
   nameWithType: NeftaCore.NeftaUser
 - uid: Nefta.Core.NeftaCore.NeftaUser*
   name: NeftaUser
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_NeftaUser_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_NeftaUser_
   commentId: Overload:Nefta.Core.NeftaCore.NeftaUser
   isSpec: "True"
   fullName: Nefta.Core.NeftaCore.NeftaUser
   nameWithType: NeftaCore.NeftaUser
 - uid: Nefta.Core.NeftaCore.SaveUser
   name: SaveUser()
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_SaveUser
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_SaveUser
   commentId: M:Nefta.Core.NeftaCore.SaveUser
   fullName: Nefta.Core.NeftaCore.SaveUser()
   nameWithType: NeftaCore.SaveUser()
 - uid: Nefta.Core.NeftaCore.SaveUser*
   name: SaveUser
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_SaveUser_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_SaveUser_
   commentId: Overload:Nefta.Core.NeftaCore.SaveUser
   isSpec: "True"
   fullName: Nefta.Core.NeftaCore.SaveUser
   nameWithType: NeftaCore.SaveUser
-- uid: Nefta.Core.NeftaCore.ToolboxModule
-  name: ToolboxModule
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_ToolboxModule
-  commentId: F:Nefta.Core.NeftaCore.ToolboxModule
-  fullName: Nefta.Core.NeftaCore.ToolboxModule
-  nameWithType: NeftaCore.ToolboxModule
 - uid: Nefta.Core.NeftaCore.Warn(System.String)
   name: Warn(string)
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Warn_System_String_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Warn_System_String_
   commentId: M:Nefta.Core.NeftaCore.Warn(System.String)
   name.vb: Warn(String)
   fullName: Nefta.Core.NeftaCore.Warn(string)
@@ -3055,50 +3432,44 @@ references:
   nameWithType.vb: NeftaCore.Warn(String)
 - uid: Nefta.Core.NeftaCore.Warn*
   name: Warn
-  href: ToolboxSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Warn_
+  href: CoreSdk/Nefta.Core.NeftaCore.html#Nefta_Core_NeftaCore_Warn_
   commentId: Overload:Nefta.Core.NeftaCore.Warn
   isSpec: "True"
   fullName: Nefta.Core.NeftaCore.Warn
   nameWithType: NeftaCore.Warn
 - uid: Nefta.Core.NeftaUser
   name: NeftaUser
-  href: ToolboxSdk/Nefta.Core.NeftaUser.html
+  href: CoreSdk/Nefta.Core.NeftaUser.html
   commentId: T:Nefta.Core.NeftaUser
   fullName: Nefta.Core.NeftaUser
   nameWithType: NeftaUser
-- uid: Nefta.Core.NeftaUser._accountId
-  name: _accountId
-  href: ToolboxSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__accountId
-  commentId: F:Nefta.Core.NeftaUser._accountId
-  fullName: Nefta.Core.NeftaUser._accountId
-  nameWithType: NeftaUser._accountId
 - uid: Nefta.Core.NeftaUser._address
   name: _address
-  href: ToolboxSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__address
+  href: CoreSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__address
   commentId: F:Nefta.Core.NeftaUser._address
   fullName: Nefta.Core.NeftaUser._address
   nameWithType: NeftaUser._address
 - uid: Nefta.Core.NeftaUser._email
   name: _email
-  href: ToolboxSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__email
+  href: CoreSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__email
   commentId: F:Nefta.Core.NeftaUser._email
   fullName: Nefta.Core.NeftaUser._email
   nameWithType: NeftaUser._email
 - uid: Nefta.Core.NeftaUser._token
   name: _token
-  href: ToolboxSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__token
+  href: CoreSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__token
   commentId: F:Nefta.Core.NeftaUser._token
   fullName: Nefta.Core.NeftaUser._token
   nameWithType: NeftaUser._token
 - uid: Nefta.Core.NeftaUser._userId
   name: _userId
-  href: ToolboxSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__userId
+  href: CoreSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__userId
   commentId: F:Nefta.Core.NeftaUser._userId
   fullName: Nefta.Core.NeftaUser._userId
   nameWithType: NeftaUser._userId
 - uid: Nefta.Core.NeftaUser._username
   name: _username
-  href: ToolboxSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__username
+  href: CoreSdk/Nefta.Core.NeftaUser.html#Nefta_Core_NeftaUser__username
   commentId: F:Nefta.Core.NeftaUser._username
   fullName: Nefta.Core.NeftaUser._username
   nameWithType: NeftaUser._username

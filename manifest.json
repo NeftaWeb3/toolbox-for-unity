@@ -464,6 +464,116 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Category.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Method.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Method.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.ProgressionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.NeftaAnalytics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.NeftaCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.NeftaCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.NeftaUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.NeftaUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "CoreSdk/Nefta.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/Nefta.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CoreSdk/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "CoreSdk/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "CoreSdk/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "Documentation/NeftaSDKmenu.png",
       "output": {
@@ -499,36 +609,6 @@
       "output": {
         "resource": {
           "relative_path": "Documentation/ToggleLogging.png.meta"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ToolboxSdk/Nefta.Core.NeftaCore.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ToolboxSdk/Nefta.Core.NeftaCore.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ToolboxSdk/Nefta.Core.NeftaUser.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ToolboxSdk/Nefta.Core.NeftaUser.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ToolboxSdk/Nefta.Core.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ToolboxSdk/Nefta.Core.html"
         }
       },
       "version": ""
@@ -974,14 +1054,11 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Toc",
-      "source_relative_path": "_site/toc.yml",
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
       "output": {
-        ".html": {
-          "relative_path": "_site/toc.html"
+        "resource": {
+          "relative_path": "favicon.ico"
         }
       },
       "version": ""
